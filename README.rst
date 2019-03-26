@@ -12,4 +12,4 @@ Add code below to your .vimrc if you use **Bundle** as vim plugin manager.
 
 .. code:: shell
 
-   Bundle 'easyforces/lightpets'
+   Bundle 'easyforces/algpets'
