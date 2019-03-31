@@ -28,9 +28,9 @@ $0
 endsnippet
 
 snippet a_list "Init a list"
-= [$1] & len($0)
+= [$1] * len($0)
 endsnippet
 
 snippet a_list2 "Init a 2 dimontional list"
-= [([$1] & len($2)) for _ in range(len($3))]$0
+= [([$1] * len($2)) for _ in range(len($3))]$0
 endsnippet
